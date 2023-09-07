@@ -78,6 +78,6 @@ class CurvedDashedLinePainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(DashedLinePainter oldDottedLinePainter) =>
+  bool shouldRepaint(CurvedDashedLinePainter oldDottedLinePainter) =>
       path != oldDottedLinePainter.path;
 }
