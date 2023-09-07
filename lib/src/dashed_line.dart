@@ -83,7 +83,7 @@ class DashedLine extends StatelessWidget {
         final size = fittingPathSize(path, constraints.biggest, lineFit);
 
         return CustomPaint(
-          painter: DashedLinePainter(
+          painter: CurvedDashedLinePainter(
             path: path,
             color: color,
             lineFit: lineFit,

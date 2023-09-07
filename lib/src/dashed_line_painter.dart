@@ -4,8 +4,8 @@ import 'package:dashed_line/src/fitting_path_size.dart';
 import 'package:dashed_line/src/line_fit.dart';
 import 'package:flutter/rendering.dart';
 
-class DashedLinePainter extends CustomPainter {
-  DashedLinePainter({
+class CurvedDashedLinePainter extends CustomPainter {
+  CurvedDashedLinePainter({
     required this.path,
     required this.color,
     required this.lineFit,
